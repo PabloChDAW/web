@@ -1,0 +1,85 @@
+<!--Nota: Cada vez que utilize por primera vez una etiqueta, atributo, o algún otro recurso en html, lo comentaré antes, explicando su función-->
+<!--Esto es un comentario-->
+<!--Indica al navegador de qué tipo de documento se trata-->
+<!DOCTYPE html>
+<!--Idioma del contenido de la página-->
+<html lang="es">
+<!--Cabecera de la página-->
+<head>
+    <!--Conjunto de caracteres usado: UTF-8-->
+    <meta charset="UTF-8">
+    <!--Metadatos-->
+    <meta name="author" author="Pablo">
+    <meta name="keywords" content="universo sol planetas sistema solar astronomia">
+    <!--Controla el viewport (área visible) de la página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título de la web-->
+    <title>El Sistema Solar</title>
+</head>
+<!--Contenido de la página. El atributo style alinea el texto de forma automática (margin: auto) dejando un margen de 1000 pixels (width: 1000px) a la izquierda-->
+<!--Duda: En la presentación del tema 4 se indica que no deben aplicarse estilos. Preguntando a compañeros de clase, me han informado de que en clase se explicó que hay que aplicar esta etiqueta para centrar el texto. ¿Debo quitarla?-->
+<!--Por si acaso, la anularé por ahora y la dejaré como comentario de referencia por si tengo que corregirlo-->
+<!--<body style="width: 1000px; margin: auto">-->
+    <!--Encabezado-->
+    <h1>¿Qué es el Sistema Solar?</h1>
+    <!--Párrafo. Incluye etiquetas de negrita y saltos de renglón. la etiqueta br es un ejemplo de etiqueta que no necesita cierre, ya que está vacía de contenido y simplemente provoca un salto de renglón.-->
+    <p>El Sistema Solar es un conjunto formado por <b>el Sol y los ocho planetas que giran a su<br>alrededor.</b> De los ocho planetas, uno es donde vivimos: la <b>Tierra.</b></p>
+    <!--Otro párrafo, etc.-->
+    <p>Además de estos elementos  hay otros cuerpos celestes que también orbitan alrededor de<br>la gran estrella solar, como los <b>satélites </b>de cada planeta, los <b>cometas </b>o los <b>asteroides.</b></p>
+    <h1>¿Dónde está el Sistema Solar?</h1>
+    <p>En el universo hay millones de galaxias. Una de ellas es la que conocemos como <b>Vía Láctea.</b></p>
+    <p>La Vía Láctea, formada por estrellas, polvo y gas, tiene forma de espiral. Podría decirse que<br>su aspecto es algo así como un remolino con varios brazos; pues bien, en uno de ellos, el<br>llamado <b>brazo de Orión, </b>se encuentra el Sistema Solar.</p>
+    <!--Inserto una imagen, indicando el archivo y ruta, título, y un texto emergente en caso de que no se encuentre-->
+    <!--Nota: He abierto la imagen en Gimp para conocer su tamaño, he probado introducir el tamaño original en píxeles, y luego he comprobado que ajustándolo al 60% se ajusta al texto-->
+    
+    <img src="img/universo.jpg" title="universo" width="40%" height="40%" alt="El Universo">
+    <h1>¿Cuándo se formó el Sistema Solar?</h1>
+    <p>Lo cierto es que hace tanto tiempo que es muy difícil saber este dato con <br>seguridad, pero se cree que fue hace… <b>4.5 MIL MILLONES DE AÑOS! </b>Si lo <br>piensas bien te darás cuenta de que estamos hablando de un espacio <br>temporal impactante y que nos resulta difícil de imaginar.</p>
+    <h1>¿Cómo se formó el Sistema Solar?</h1>
+    <p>Este es otro tema que todavía no está del todo claro, pero según las últimas<br>investigaciones parece ser que la fortísima <b>explosión de una estrella </b>provocó<br>que una gran nube de gas y polvo se contrajera y empezara a girar a gran<br>velocidad. Por lo visto, la mayor parte de esta materia se concentró en el centro<br>y se fue calentando cada vez más y más, hasta formar una gran estrella: el <b>Sol.</b></p>
+    <p>Después, alrededor del Sol, el resto de polvo y gas fue chocando y juntándose<br>hasta formar los diferentes planetas.</p>
+    <h1>El Sol y los ocho planetas del Sistema Solar</h1>
+    <!--La etiqueta h2 muestra un encabezado secundario, más pequeño que h1-->
+    <h2>El Sol</h2>
+    <p>El Sol es el gran protagonista de este sistema, que por eso se llama Sistema<br>Solar. Está situado en el centro y todo gira en torno a él.</p>
+    <p>El Sol es una estrella inmensa que emite <b>luz y calor. </b>Sin el Sol, la vida en<br>la tierra no existiría.</p>
+    <img src="img/sol.jpg" title="sol" width="40%" height="40%" alt="El Sol">
+    <!--La etiqueta delete se usa para tachar texto-->
+    <h2>Los ocho planetas del <del>Sistema </del>Solar</h2>
+    <p>Los planetas del Sistema Solar son ocho cuerpos celestes sólidos de forma casi<br>circular. A diferencia del Sol, <b>no tienen luz propia.</b></p>
+    <p>Los planetas están <b>siempre moviéndose y girando alrededor del Sol. </b>A este<br>movimiento se le llama movimiento de <b>traslación, </b>y cada uno lo hace en un<br>tiempo diferente. El tiempo que nuestro planeta Tierra tarda en dar la vuelta<br>completa al Sol es lo que llamamos año, es decir, 365 días. Sí, eso es: cada año<br>que vivimos es una vuelta que da la Tierra alrededor del Sol.</p>
+    <p>Además de esta órbita, la Tierra gira sobre sí misma y tarda exactamente 24<br>horas. Para nosotros es un día completo. Esto se conoce como movimiento de<br><b>rotación.</b></p>
+    <p>Por tanto, mientras la Tierra da una vuelta completa alrededor del Sol (un año)<br>gira sobre sí misma 365 veces (365 días).</p>
+    <p>Por orden, de más cercano a más lejano del Sol, los planetas son: <b>Mercurio,<br>Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno.</b></p>
+    <h2>Los cuatro primeros son planetas rocosos:</h2>
+    <!--Creo una lista no numerada con la etiqueta ul. Pra cada elemento de la lista uso la etiqueta li-->
+    <ul>
+        <li><a href="/planetas/mercurio.html">Mercurio</a></li>
+        <li><a href="/planetas/venus.html">Venus</a></li>
+        <li><a href="/planetas/tierra.html">Tierra</a></li>
+        <li><a href="/planetas/marte.html">Marte</a></li>
+    </ul>
+    <h2>Los cuatro últimos son planetas gaseosos:</h2>
+    <ul>
+        <li><a href="/planetas/jupiter.html">Júpiter</a></li>
+        <li><a href="/planetas/saturno.html">Saturno</a></li>
+        <li><a href="/planetas/urano.html">Urano</a></li>
+        <li><a href="/planetas/neptuno.html">Neptuno</a></li>
+    </ul>
+    <h1>Otros elementos del Sistema Solar</h1>
+    <p>Como hemos dicho al principio, además del Sol y los ocho planetas que<br>forman el Sistema Solar, existen otros elementos que también hay que tener<br>en cuenta:</p>
+    <h2>Los planetas enanos</h2>
+    <p>Son pequeños planetas que también orbitan alrededor del Sol y NO son<br>satélites de ningún otro planeta.</p>
+    <p>En nuestro Sistema Solar existen cinco: <b>Ceres, Eris, Makemake, Haumea y<br>Plutón.</b></p>
+    <img src="img/planetas_enanos.jpg" title="planetas enanos" width="40%" height="40%" alt="Los planetas enanos">
+    <h2>Satélites</h2>
+    <p>Se llama satélite a un cuerpo que gira alrededor de otro que suele ser más<br>grande. Son sólidos y carecen de atmósfera.</p>
+    <p>En el Sistema Solar los planetas poseen satélites, si bien alrededor de la Tierra<br>solo hay un satélite natural: <b>la Luna.</b></p>
+    <li>La Luna es un cuerpo celeste rocoso y sin anillos. Los seres humanos la<br>admiramos por su hermosura, por su cercanía y porque brilla en el cielo<br>Debes saber que en realidad la luna es un planeta oscuro que no<br>desprende luz, sino que refleja la luz que recibe del sol.</li>
+    <img src="img/luna.jpg" title="luna" width="40%" height="40%" alt="La Luna">
+    <p>*Se llaman <b>satélites artificiales</b>a los fabricados y lanzados al espacio por los<br>humanos para tomar todo tipo de datos sobre un planeta.</p>
+    <h2>Y además…</h2>
+    <p>En el Sistema Solar hay otros elementos, como los <b>asteroisdes, </b>los <b>cometas, </b>y los <b>meteroides.</b></p>
+    <img src="img/asteroide.jpg" title="asteroide" width="40%" height="40%" alt="Un asteroide">
+</body>
+</html>
