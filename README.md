@@ -6,3 +6,4 @@ El objetivo de este proyecto es crear un dominio para compartir mis trabajos, us
 
     19/11/2023
 Creación del repositorio
+He corregido un error: Al crear el repositorio, el archivo index.html no estaba en la carpeta principal.
