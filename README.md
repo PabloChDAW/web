@@ -9,4 +9,4 @@ Creación del repositorio
 He corregido un error: Al crear el repositorio, el archivo index.html no estaba en la carpeta principal.
 miniweb añadida. Indexada. Revisada.
 web_sistema_solar añadida.
-Después de trastear un buen rato he comprendido que la mejor manera de desarrollar la web es hospedar la rama de desarrollo durante toda la sesión, y al terminar, hacer el merge a la rama main y dejarla hospedada.
+Después de trastear un buen rato he comprendido que la mejor manera de desarrollar la web es hospedar la rama de desarrollo durante toda la sesión para poder hacer pruebas en el navegador, y al terminar, hacer el merge a la rama main y dejarla hospedada.
