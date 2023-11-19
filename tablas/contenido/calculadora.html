@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tema 5. Ejercicio 1: Tablas. Calculadora.">
+    <meta name=”author” content=”Pablo”>
+    <title>Calculadora</title>
+</head>
+<!--Web de referencia: https://www.w3schools.com/html/html_tables.asp-->
+<!--Atributo de estilo en la etiqueta body. Desvía el contenido 1000px a la derecha para centrarlo-->
+<body style="width: 1000px; margin:auto;">
+    <h1>Calculadora</h1>
+    <!--Atributos de estilo que se aplican a las etiquetas de tabla, fila y columna-->
+    <!--Bordes de 1px-->
+    <!--Bordes por defecto (dobles)-->
+    <!--Texto centrado-->
+    <style>
+    table, th, td {
+        border:1px solid black;
+        text-align: center;
+    }
+    </style>
+    <table>
+        <!--Cabecera (pantalla)-->
+        <thead>
+            <!--30px de alto-->
+            <tr style="height:30px;">
+                <!--5 columnas de ancho, 2 filas de alto, Texto a la derecha-->
+                <!--NOTA IMPORTANTE: Nótese cómo el texto se orilla a la derecha, prevaleciendo sobre el estilo aplicado a la tabla-->
+                <th colspan="5" rowspan="2" style="text-align: right;">0</th>
+            </tr>
+        </thead>
+        <!--1ª fila-->
+        <tr>
+            <td>MC</td>
+            <td>MR</td>
+            <td>MS</td>
+            <td>M+</td>
+            <td>M-</td>
+        </tr>
+        <!--2ª fila-->
+        <tr>
+            <td>←</td>
+            <td>CE</td>
+            <td>C</td>
+            <td>±</td>
+            <td>√</td>
+        </tr>
+        <!--3ª fila-->
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>/</td>
+            <td>%</td>
+        </tr>
+        <!--4ª fila-->
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>*</td>
+            <td>1/x</td>
+        </tr>
+        <!--5ª fila-->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>-</td>
+            <!--2 filas de alto-->
+            <td rowspan="2" style="text-align: center;">=</td>
+        </tr>
+        <!--5ª fila-->
+        <tr>
+            <!--2 columnas de ancho-->
+            <td colspan="2" style="text-align: center;">0</td>
+            <td>,</td>
+            <td>+</td>
+        </tr>
+    </table>
+</body>
+</html>
