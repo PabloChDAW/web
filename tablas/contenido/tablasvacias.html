@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tema 5. Ejercicio 1: Tablas. Tablas vacías.">
+    <meta name=”author” content=”Pablo”>
+    <title>Tablas vacías</title>
+</head>
+<!--Web de referencia: https://www.w3schools.com/html/html_tables.asp-->
+<!--Atributo de estilo en la etiqueta body. Desvía el contenido 1000px a la derecha para centrarlo-->
+<body style="width: 1000px; margin:auto;">
+    <h1>Tablas vacías</h1>
+    <!--Atributos de estilo que se aplican a las etiquetas de tabla, fila y columna-->
+    <!--Bordes de 2px-->
+    <!--Bordes de una sola línea. Por defecto crea doble línea-->
+    <!--Ancho y alto en unidades relativas (píxeles)-->
+    <style>
+    table, th, td {
+        border:2px solid black;
+        border-collapse: collapse;
+        width:320px;
+        height:15px;
+    }
+    </style>
+    <table>
+        <!--Título. Texto a la izquierda-->
+        <caption style="text-align:left;">Tabla 1</caption>
+        <tr>
+            <!--Fila con un ancho de 5 columnas-->
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </table>
+        <!--Salto de renglón para dejar espacio-->
+        <br>
+        <table>
+        <caption style="text-align:left;">Tabla 2</caption>
+        <tr>
+            <!--Fila con un largo de 8 filas-->
+            <td rowspan="8"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       </table>
+       <br>
+       <table>
+        <caption style="text-align:left;">Tabla 3</caption>
+        <tr>
+            <!--Fila con un largo de 4 filas y un ancho de 4 columnas-->
+            <td colspan="4" rowspan="4"></td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <!--Fila con un ancho de 4 columnas-->
+            <td colspan="4"></td>
+            <!--Fila con un largo de 4 filas y un ancho de 4 columnas-->
+            <td colspan="4" rowspan="4"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       </table>
+</body>
+</html>
