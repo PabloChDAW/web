@@ -12,8 +12,7 @@ web_sistema_solar añadida.
 Después de trastear un buen rato he comprendido que la mejor manera de desarrollar la web es hospedar la rama de desarrollo durante toda la sesión para poder hacer pruebas en el navegador, y al terminar, hacer el merge a la rama main y dejarla hospedada.
 He aprendido a indexar bien los archivos, tanto de directorios superiores como inferiores. después de muchos intentos.
 Comienzo la web Tablas.
-
-    20/11/2023
 Termino la tabla Horario de clases.
 Termino la tabla Calculadora.
 Termino las tablas vacías.
+Termino los formularios. Fusiono la rama de desarrollo con la principal y dejo preparado mi repositorio para su presentación en el aula digital.
