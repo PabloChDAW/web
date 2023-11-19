@@ -16,3 +16,4 @@ Comienzo la web Tablas.
     20/11/2023
 Termino la tabla Horario de clases.
 Termino la tabla Calculadora.
+Termino las tablas vacías.
