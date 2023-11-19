@@ -1,5 +1,6 @@
 # web
- Colección de mis trabajos de la asignatura Lenguajes de Marcas.
+
+Colección de mis trabajos de la asignatura Lenguajes de Marcas.
 Ciclo formativo de Grado Superior. Desarrollo de Aplicaciones Web. Primer curso.
 
 El objetivo de este proyecto es crear un dominio para compartir mis trabajos, usando GitHub como hosting.
