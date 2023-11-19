@@ -20,36 +20,22 @@
         <!--Alineo el texto a la izquierda-->
         <table style="text-align: left;">
         <tr>
-            <th>
-                <!--Elemento de formulario del tipo label-->
-                <label for="Nombre">Nombre</label>
-            </th>
-            <td colspan="2">
-                <!--Tipo de entrada: texto. Longitud ajustada en píxeles. Campo obligatorio-->
-                <input type="text" name="Nombre" style="padding-left:400px;" required>
-            </td>
+            <!--Elemento de formulario del tipo label-->
+            <th><label for="Nombre">Nombre</label></th>
+            <!--Tipo de entrada: texto. Longitud ajustada en píxeles. Campo obligatorio-->
+            <td colspan="2"><input type="text" name="Nombre" style="padding-left: 400px;" required></td>
         </tr>
         <tr>
-            <th>
-                <label for="Apellidos">Apellidos</label> 
-            </th>
-            <td colspan="2">
-                <input type="text" name="Apellidos" style="padding-left:400px;" required>
-            </td>
+            <th><label for="Apellidos">Apellidos</label></th>
+            <td colspan="2"><input type="text" name="Apellidos" style="padding-left: 400px;" required></td>
         </tr>
         <tr>
-            <th>
-                <label for="Empresa/Institucion">Empresa/Institución</label>
-            </th>
-            <td colspan="2">
-                <input type="text" name="Empresa/Institución" style="padding-left:400px;" required>
-            </td>
+            <th><label for="Empresa/Institucion">Empresa/Institución</label></th>
+            <td colspan="2"><input type="text" name="Empresa/Institución" style="padding-left:400px;" required></td>
         </tr>
         <tr>
-            <th>
-                <label for="Ambito de la empresa">Ámbito de la empresa</label>
-            </th>
-            <td colspan="2" style="border-color: black; border-style: solid; width: 570px; height: 18px;">
+            <th><label for="Ambito de la empresa">Ámbito de la empresa</label></th>
+            <td colspan="2" style="border-color: black; border-style: solid; width: 560px; height: 18px;">
                 <!--Ajuste manual por píxeles-->
                 <!--Elemento de formulario tipo select. Permite elegir entre varias opciones posibles-->
                 <select name="Ambito de la empresa" style="padding-right:460px;" required>
@@ -59,11 +45,43 @@
                 <option value="In">Industria</option>
                 <option value="SV">Servicios</option>
             </td>
-            <td>
             <!--Imagen con posición y tamaño ajustados a mano con medidas relativas (píxeles y porcentajes)-->
-            <img src="../img/lupa.png" style=" width: 15px; height: 15px; position:absolute; left: 68%; top: 19.8%;">
-            </td>
+            <td><img src="../img/lupa.png" style=" width: 15px; height: 15px; position:absolute; left: 68%; top: 19.8%;"></td>
         </tr>
-        
+        <tr>
+            <th><label for="Cargo">Cargo</label></th>
+            <td colspan="2"><input type="text" name="Cargo" style="padding-left:400px;" required></td>
+        </tr>
+        <tr>
+            <th><label for="Nombre de usuario">Nombre de usuario</label></th>   
+            <td><input type="text" name="Nombre de usuario" required></td> 
+            <td>(Nombre con el que se identificará dentro del sistema)</td> 
+        </tr>
+        <tr>
+            <th><label for="Contraseña">Contraseña</label></th>
+            <!--Elemento de formulario tipo password. Oculta las letras mientras se escribe-->
+            <td><input type="password" name="Contraseña" required></td>
+            <td>(Procure utilizar combinaciones alfanuméricas)</td>
+        <tr>
+            <th><label for="Correo electrónico">Correo electrónico</label></th>
+            <!--Elemento de formulario tipo email-->
+            <td colspan="2"><input type="email" name="Correo electrónico" required></td>
+        </tr>
+        </table>
+        <!--Centro el bloque contenido en la etiqueta p, añadiendo estilo con css-->
+    <style>
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    </style>
+    <p>
+        <!--Elemento de formulario tipo checkbox-->
+        <input type="checkbox" id="terminos" name="terminos" value="aceptar" required>
+        <label for="terminos"> He leído y acepto los términos del sistema</label><br>
+    </p>
+        <!--Elemento de formulario tipo submit. Crea un botón para enviar los datos del formulario-->
+        <p><br><input type="submit" value="Enviar formulario"></p>
 </body>
 </html>
