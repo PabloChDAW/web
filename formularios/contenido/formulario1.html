@@ -6,6 +6,14 @@
     <meta name="description" content="Tema 5. Ejercicio 2: Formularios. Formulario 1.">
     <meta name=”author” content=”Pablo”>
     <title>Formulario 1</title>
+<!--Centro el bloque contenido en la etiqueta p, añadiendo estilo con css. Lo convierto en un ontenedor flexible alineando su contenido en el centro-->
+<style>
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    </style>
 </head>
 <!--Web de referencia: https://www.w3schools.com/html/html_forms.asp-->
 <!--Estilo aplicado a todo el cuerpo-->
@@ -16,7 +24,7 @@
     <!--Posición del texto ajustada a mano, rojo, tamaño de fuente ajustada en píxeles-->
     <p style="position: absolute; left: 50%; top: 5%; color: red; font-size: 20px;" >Todos los campos son obligatorios</p>
     <!--Nombre del formulario para su identificacion. proceso.php es el archivo que procesará los datos. El método post envía los datos de manera oculta-->
-    <form name="formulario1" action="proceso.php" method="post">
+    <form name="formulario1" action="proceso1.php" method="post">
         <!--Alineo el texto a la izquierda-->
         <table style="text-align: left;">
         <tr>
@@ -46,7 +54,7 @@
                 <option value="SV">Servicios</option>
             </td>
             <!--Imagen con posición y tamaño ajustados a mano con medidas relativas (píxeles y porcentajes)-->
-            <td><img src="../img/lupa.png" style=" width: 15px; height: 15px; position:absolute; left: 68%; top: 19.8%;"></td>
+            <td><img src="../img/lupa.png" style=" width: 15px; height: 15px; position: absolute; left: 68%; top: 19.8%;"></td>
         </tr>
         <tr>
             <th><label for="Cargo">Cargo</label></th>
@@ -68,14 +76,6 @@
             <td colspan="2"><input type="email" name="Correo electrónico" required></td>
         </tr>
         </table>
-        <!--Centro el bloque contenido en la etiqueta p, añadiendo estilo con css-->
-    <style>
-    p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-    </style>
     <p>
         <!--Elemento de formulario tipo checkbox-->
         <input type="checkbox" id="terminos" name="terminos" value="aceptar" required>
