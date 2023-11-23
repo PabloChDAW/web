@@ -24,4 +24,4 @@ Comienzo la web semántica. La comunidad autónoma elegida es Galicia.
     22/11/2023
 Hago el encabezado de index.html con los metadatos y enlaces correspondientes. El estilo se aplicará con un css aparte para cada archivo html.Añado un favicon.
 Añado archivo index.css para el estilo de index.html.
-Creo la estructura de carpetas necesaria para toda la web.
+Creo la estructura de carpetas necesaria para toda la web
