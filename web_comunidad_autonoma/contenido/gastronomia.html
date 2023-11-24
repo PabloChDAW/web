@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Galicia, gastronomía</title>
+        <!--Enlace al archivo css que añade estilo a la página-->
+        <link rel="stylesheet" href="gastronomia.css">
+        <!--Imagen en la pestaña de la página (favicon)-->
+        <link rel="icon" href="img/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="galicia viajar historia naturaleza cultura gastronomia arqueologia senderismo turismo">
+        <meta name="author" author="Pablo">
+    </head>
+<body>
+
+<header>
+  <div class="header">
+    <h1>Gastronomía</h1>
+    <p>La cocina gallega</p>
+  </div>
+</header>
+
+<!--Barra horizontal superior con enlaces a las demás páginas-->
+<nav>
+  <div class="navbar">
+    <a href="naturaleza.html">Naturaleza</a>
+    <a href="historia.html">Historia</a>
+    <a href="lugares.html">Lugares</a>
+    <a href="../index.html" class="right">Volver</a>
+  </div>
+</nav>
+
+<main>
+  <div class="row">
+    <div class="side">
+        <h2>PLATOS TÍPICOS</h2>
+        <h5>Lacón con grelos</h5>
+        <div class="img5" style="height:200px;"></div>
+        <p>Los ingredientes para elaborar este plato son: lacón, grelos, patatas, chorizo, pimentón y aceite de oliva. Para preparar este plato se cuecen los ingredientes, se colocan en una bandeja, se echa por encima caldo de la cocción y se espolvorea pimentón.</p><br>
+        <h5>Marisco</h5>
+        <div class="img6" style="height:300px;"></div>
+        <p>El marisco gallego es magnífico y muy variado, destaca los percebes, zamburiñas, navajas, vieras, almejas, centollos, nécoras...</p><br>
+        <h5>Ternera gallega</h5>
+        <div class="img7" style="height:300px;"></div>
+        <p>Esta carne procede de terneros autóctonos que tienen que superar unos controles muy rigurosos, han de ser terneros nacidos, criados y sacrificados en Galicia.
+            Se trata de una carne con una calidad excelente y tiene Indicación General Protegida. Pero son muchos los productos gallegos que tienen el reconocimiento y protección de origen.</p>
+    </div>
+    <div class="main">
+        <!--Inserto un audio que se reproduce automáticamente al abrir la página-->
+        <h5><i>Muiñeira de Chantada</i></h5>
+        <audio controls autoplay>
+            <source src="../multimedia/munieira.mp3" type="audio/mpeg">
+        </audio>
+        <!--Formulario-->
+      <h2>Envía tus datos y recibirás una lista de los mejores restaurantes para comer en Galicia</h2>
+        <!--Etiqueta del campo de entrada de datos del formulario-->
+        <form>
+            <label for="Nombre">Nombre <span>*</span></label>
+            <!--Campo de entrada de datos del formulario-->
+            <input type="text" name="Nombre" placeholder="Escribe tu nombre" required>
+            <br><br>
+            <label for="Email">Email <span>*</span></label>
+            <input type="text" name="Email" placeholder="Escribe tu Email" required>
+            <br><br>
+            <label for="Telefono">Telefono</label>
+            <input type="text" name="Telefono" placeholder="Escribe tu teléfono">
+            <br><br>
+            <label for="Sitio web">Sitio web</label>
+            <input type="text" name="Sitio web" placeholder="Escribe la URL de tu web">
+            <br><br>
+            <label for="Asunto">Asunto <span>*</span></label>
+            <input type="text" name="Asunto" placeholder="Escribe un asunto" required>
+            <br><br>
+            <label for="Mensaje">Mensaje <span>*</span></label>
+            <!--Campo de entrada del formulario para varias líneas-->
+            <textarea name="mensaje" rows="7" cols="40" placeholder="Deja aquí tu comentario..." required></textarea>
+            <br><br>
+            <!--Botón-->
+            <input type="submit" value="Submit" style="background-color: rgb(106, 72, 108); color: white;">
+        </form>
+        <!--Párrafo 2-->
+        <p>Al pulsar el botón "Submit", tus datos serán enviados a "/action_page.php".</p>
+        <p2>* los campos son obligatorios</p2>
+    </div>
+  </div>
+  <small>Esta página web ha sido realizada con fines educativos y sin ánimo de lucro. Todo el contenido pertenece a sus respectivos creadores, y ha sido recopilado de las siguientes direcciones: https://albegourmet.it/regioni/galicia, https://www.farodevigo.es/sociedad/2018/06/02/mejores-bosques-galicia-realidad-supera-15948341.html, https://www.xacotrans.com/galicia-cultura-y-monumentos/, https://www.viajargalicia.com/celtas-en-galicia, https://oretirodoconde.com/experiencias/, https://los40.com/, https://patrimonionatural.xunta.gal/, https://www.viajargalicia.com/celtas-en-galicia, https://turismodevino.com/saber-de-vino/platos-y-gastronomia-tipica/platos-tipicos-de-galicia/.</small>
+</main>
+
+<footer >
+  <div class="container">
+    <div class="col-md-4">
+      <h3 class="centrado">Sobre el autor:</h3>
+      <p class="centrado">Estudiante de Formación Profesional. Desarrollo de Aplicaciones Web</p>
+    </div>
+    <div class="centrado" class="col-md-4">
+      <h3 class="centrado" >Contacto</h3>
+      <p><i class="fas fa-envelope"></i> pcg0031@alu.medac.es </p>
+      <a href="#" style="color: white;" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Subir</a>
+      <p><a href="../index.html" style="color: white;" target="_blank">Todos mis proyectos</a></p>
+    </div>
+    <br>
+    </div>
+  </div>
+</footer> 
+
+</body>
+</html>
