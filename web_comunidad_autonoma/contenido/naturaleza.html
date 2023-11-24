@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Galicia, naturaleza</title>
         <!--Enlace al archivo css que añade estilo a la página-->
-        <link rel="stylesheet" href="contenido.css">
+        <link rel="stylesheet" href="naturaleza.css">
         <!--Imagen en la pestaña de la página (favicon)-->
         <link rel="icon" href="img/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,48 +13,70 @@
     </head>
 <body>
 
-<div class="header">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
-</div>
-
-<div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
-</div>
-
-<div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+<header>
+  <div class="header1">
+    <h1>Naturaleza</h1>
+    <p>Un reducto de naturaleza salvaje</p>
   </div>
-  <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+</header>
+
+<!--Barra horizontal superior con enlaces a las demás páginas-->
+<nav>
+  <div class="navbar">
+    <a href="lugares.html">Lugares</a>
+    <a href="historia.html">Historia</a>
+    <a href="gastronomia.html">Gastronomía</a>
+    <a href="../index.html" class="right">Volver</a>
+  </div>
+</nav>
+
+<main>
+  <div class="row">
+    <div class="side">
+      <h2>Parques naturales</h2>
+      <div class="img5" style="height:200px;"></div>
+      <p>Los parques son áreas naturales, poco transformadas por las actividades humanas que, por la belleza de sus paisajes, la representatividad de sus ecosistemas o la singularidad de su flora, fauna o de su diversidad geológica, incluidas sus formaciones geomorfológicas, poseen unos valores ecológicos, estéticos, educativos o científicos cuya conservación merece una atención preferente. En la actualidad en Galicia existen seis parques naturales:</p><br>
+      <!--Lista enumerada con la etiqueta ol-->
+    <ol>
+      <!--Componentes de la lista anidados. Gracias a estar anidados dentro de la etiqueta ol, aparecen enumerados-->
+      <li>Los Parques Naturales de las Fragas do Eume</li>
+      <li>Complejo Dunar de Corrubedo y Lagunas de Carregal y Vixán en A Coruña</li>
+      <li>Parques Naturales Baixa Limia-Serra del Xurés</li>
+      <li>El Invernadeiro y Serra da Enciña da Lastraen Ourense</li>
+      <li>Parque Nacional Marítimo Terrestre de las Islas Atlánticas de Galicia</li>
+      <li>Parque Natural del Monte Aloia y Pontevedra</li>
+  </ol>
+    </div>
+    <div class="main">
+      <h2>Fragas do Eume</h2>
+      <h5>El bosque atlántico de Europa</h5>
+      <div class="img6" style="height:600px;"></div>
+      <p>Las Fragas do Eume, que se extienden por un abrupto valle de profundas gargantas, presumen de ser el bosque atlántico costero mejor conservado de Europa y uno de los escasísimos bosques de su tipo en el continente. Abarca 9.125 hectáreas, siendo declarado Parque Natural, el quinto de Galicia, el 12 de agosto de 1997. En extensión, es el segundo mayor de los parques naturales tras el Xurés (Ourense), de casi 30.000 hectáreas.</p>
+      <br>
+      <h2>Complejo Dunar de Corrubedo y Lagunas de Carregal y Vixán</h2>
+      <h5>Excelente ejemplo de complejo litoral</h5>
+      <div class="img7" style="height:600px;"></div>
+      <p>La extensa duna móvil (1 km de largo, 250 m ancho y 15 m alto) es uno de los mayores atractivos de este espacio natural, pero no el único. El Parque Natural de Corrubedo y lagunas de Carregal y Vixán es un excelente ejemplo de complejo barra-laguna litoral en Galicia. Cuenta con un extenso sistema dunar de gran valor natural y paisajístico y alberga muchos tipos de hábitats en un espacio relativamente reducido. Abarca 996 ha siendo el quinto en extensión de los seis parques naturales gallegos. Fue el segundo de Galicia, declarado el 15/06/1992.</p>
+    </div>
+  </div>
+</main>
+
+<footer >
+  <div class="container">
+    <div class="col-md-4">
+      <h3 class="centrado">Sobre el autor:</h3>
+      <p class="centrado">Estudiante de Formación Profesional. Desarrollo de Aplicaciones Web</p>
+    </div>
+    <div class="centrado" class="col-md-4">
+      <h3 class="centrado" >Contacto</h3>
+      <p><i class="fas fa-envelope"></i> pcg0031@alu.medac.es </p>
+      <a href="#" style="color: white;" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Volver</a>
+      <p><a href="../index.html" style="color: white;" target="_blank">Todos mis proyectos</a></p>
+    </div>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
   </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+</footer> 
 
 </body>
 </html>
