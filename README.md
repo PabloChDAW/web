@@ -28,3 +28,8 @@ Creo la estructura de carpetas necesaria para toda la web.
 
     23/11/2023
 Añado etiquetas semánticas.
+Desarrollo gran parte de la web semántica (web Comunidad Autónoma). La dejo casi terminada.
+
+    24/11/2023
+Termino la web semántica. 
+Fusiono la rama de desarrollo con la principal.

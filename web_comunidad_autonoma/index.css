@@ -74,34 +74,35 @@
     padding: 20px;
   }
   
-  /* Imagen del enlace 1. no-repeat (para que no se repita)
+  /* Imagen 1. no-repeat (para que no se repita)
     Background-size: cover (para que abarque todo el recuadro sin distorsionarse)*/
   .img1 {
-    background: url(img/index_link1.jpg) no-repeat;
+    background: url(img/index1.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     padding: 20px;
   }
 
-  /* Imagen del enlace 2 */
+  /* Imagen 2 */
   .img2 {
-    background: url(img/index_link2.jpg) no-repeat;
+    background: url(img/index2.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     padding: 20px;
   }
 
-  /* Imagen del enlace 3 */
+  /* Imagen 3 */
   .img3 {
-    background: url(img/index_link3.jpg) no-repeat;
+    background: url(img/index3.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     padding: 20px;
   }
 
-  /* Imagen del enlace 1 */
+  /* Imagen 1 */
   .img4 {
-    background: url(img/index_link4.jpg);
+    background: url(img/index4.jpg) no-repeat;
+    background-size: cover;
     width: 100%;
     padding: 20px;
   }
