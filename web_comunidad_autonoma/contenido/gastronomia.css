@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Cuerpo. Fuentes cambiadas y tamaño ajustado. */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Encabezado/Título. Inserto imagen*/
+  .header {
+    padding: 2px;
+    background: url(../img/pulpo.jpg) no-repeat;
+    background-size: cover;
+    color: rgb(238, 235, 235);
+    font-size: 30px;
+  }
+  
+  /* Incrementa el tamaño de fuente del encabezado.Se aplican fuentes */
+  .header h1 {
+    font-size: 120px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Barra de navegación superior. position: fixed. */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Estilo de los enlaces de las barras de navegación */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Enlace alineado a la derecha */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Cambio de color */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Contenedor de columna */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Crea dos columnas desiguales */
+  /* Barra lateral/columna izquierda */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Columna principal */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Imágenes, no-repeat (para que no se repitan)
+    Background-size: cover (para que abarquen todo el recuadro sin distorsionarse)*/
+  .img5 {
+    background: url(../img/lacon.jpg) no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+
+  .img6 {
+    background: url(../img/marisco.jpg) no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+
+  .img7 {
+    background: url(../img/ternera.jpg) no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  /* Pie de página personalizado */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin:auto;
+  }
+  
+  footer ul li a:hover {
+    background-color: #f0f0f0;
+    margin:auto;
+  }
+  
+  footer .copy {
+    font-size: 14px;
+    text-align: center;
+  }
+  footer .izquierda{
+    text-align: left;
+    float: center;
+  }
