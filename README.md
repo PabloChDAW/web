@@ -33,3 +33,6 @@ Desarrollo gran parte de la web semántica (web Comunidad Autónoma). La dejo ca
     24/11/2023
 Termino la web semántica. 
 Fusiono la rama de desarrollo con la principal.
+
+    27/11/2023
+Añado la web grupal de gastronomía.
