@@ -1,0 +1,303 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Aplica estilo al cuerpo de la página */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+
+
+/*--------------Colores----------------*/
+
+:root {
+  --color-primario:rgb(114, 177, 114);
+  --color-secundario:rgb(48, 102, 40);
+  --color-acento: rgb(179, 179, 67);
+  }
+
+nav {
+    background-color: #333;
+    color: rgb(114, 177, 114);}
+nav a{
+    color: rgb(114, 177, 114);
+}
+.seleccion a:hover{
+    background-color: #ddd;
+    color: black;
+}
+nav #seleccionado{
+        background-color: rgb(114, 177, 114);
+        color: black;
+    }
+nav #seleccionado:hover {
+    background-color: #ddd;
+    color: black;}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(114, 177, 114);
+}
+
+h3{
+  color: rgb(179, 179, 67);
+}
+
+  
+/*--------------Header (encabezado)-----------------*/
+header {
+    position: relative; /* Establece la posición relativa en el contenedor */
+    z-index: 1; /* Establece un z-index inferior para el encabezado */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina rellenos */
+    border: 0; /* Elimina bordes */
+    height: 300px;
+}
+
+  
+#imgcabecera {
+    display: block;
+    width: 100%;
+    height: 100%; /* Cambia la altura al 100% para que la imagen se ajuste completamente al contenedor */
+    object-fit: cover; /* Permite autorecortar la imagen*/
+    object-position: center top; /* Centra la imagen y la posiciona en la parte superior */ 
+    
+  }
+  
+#logocabecera {
+    position: absolute; /* Establece la posición absoluta en relación con el contenedor */
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Coloca el texto en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto vertical y horizontalmente */
+    padding: 10px; /* Añade un espacio alrededor del texto */
+    z-index: 2; /* Asegura que el texto esté en la parte superior */
+    text-shadow: 20px 3px 4px rgba(0, 0, 0, 2); /* Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
+    text-align: center;
+    height: 90%;
+  }
+
+
+/*------------------Main (principal)--------------------*/
+main img{
+  width: 60%;
+}
+
+main video {
+  width: 60%;
+}
+
+aside{
+  text-align: justify;
+  
+}
+
+section{
+  text-align: justify;
+}
+
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+}
+
+.table{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/*--------------BARRA DE NAVEGACIÓN---------------*/
+  /* Aplica estilo a la barra de navegación */
+  nav {
+    overflow: hidden;
+  }
+
+  
+  /* Aplica estilo a la barra de enlaces */
+  nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Enlace alineado a la izquierda */
+  nav a.right {
+    float: right;
+  }
+
+  
+  /* Cambia el color al pasar el ratón */
+
+  
+  nav table{
+    width: 100%;
+    text-align: center;
+  }   
+
+  nav td{
+    border: transparent;
+  }
+
+  #td {
+    width: 75px;
+  }
+
+  nav img{
+    width: 30px;
+    border-radius: 25px;
+  }
+
+  nav img:hover{
+    background-color: rgb(114, 177, 114);
+    padding: 0px;
+    width: 36px;
+    border: 6px solid rgb(114, 177, 114);
+  }
+
+  nav,footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+
+  /*---------------Aside (lateral)-----------------*/
+
+
+  /* Bloque en columna */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Crea dos columnas diferentes, una al lado de la otra */
+  /* Barra lateral/columna izquierda */
+  .main {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Columna principal */
+  .side {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 20px;
+  }
+
+
+/*-------------Pie de página----------------*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    float: center;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: -10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin:auto;
+  }
+  
+  footer ul li a:hover {
+    background-color: #f0f0f0;
+    margin:auto;
+  }
+  
+  footer .copy {
+    font-size: 14px;
+    text-align: center;
+  }
+  footer .centrado{
+    text-align: center;
+    float: center;
+  }
+  
+  .centrado{
+    text-align: center;
+    float: center;
+  }
+
+  footer img{
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  footer #rrss{
+    margin: auto;
+  }
+
+  .videoprincipal{
+    width: 60%;
+    margin-top: 5px;
+    aspect-ratio: 16/9;
+  }
+  fieldset{
+  margin-top: 10%;
+  position: sticky;
+  top: 20px;
+  border: 0px;
+  }
+  
+  /* Diseño adaptable - Cuando la pantalla tiene menos de 700px de ancho, Coloca las dos columnas, una sobre la otra, en vez de una al lado de la otra. */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Diseño adaptable - Cuando la pantalla tiene menos de 400px de ancho, coloca las pilas de enlaces de navegación una sobre la otra, en vez de una al lado de la otra. */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
