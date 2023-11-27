@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+
+        <meta charset="UTF-8"> <!-- Indica la codificación de caracteres -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Indica el tamaño de la pantalla y la escala -->
+        <meta name="author" content="Pablo_Ramon_Jesus_Rafael_Ivan "> <!-- Indica el nombre de los autores -->
+        <meta name="description" content="Web con información sobre algunas de las gastronomías más importantes del mundo. Trabajo en grupo de fin del primer trimestre de la asignatura Lenguajes de Marcas del Ciclo Superior de Desarrollo de Aplicaciones Web."/> <!-- Indica la descripción de la página -->
+        <meta name="keywords" content="html5, semanticweb, gastronomia, cultura, alimentacion, costumbres, gustos, comida, italia, españa, brasil, india, japón, méxico, tailandia, francia, china"/> <!-- Indica las palabras clave para los buscadores -->
+        <title>Gastronomías del Mundo</title> <!-- Indica el título de la página --> 
+        
+        <link rel="stylesheet" href="../nuestro_dark.css">
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+    
+
+    <header>      
+            <img id="imgcabecera" src="../imagenes/header/index_imagencabecera.jpg" alt="Cabecera">
+            <img id="logocabecera" src="../imagenes/header/logo_fondo_gris.png" alt="Logo">
+    </header>
+
+
+    <nav>
+        <table>
+            <tr>
+              <td id="td">
+              </td>
+
+              <td>
+                  <h2>Sabores Sin Fronteras</h2>
+              </td>
+
+              <td id="td">
+                <a href="../contenidos/formulario.html"><img src="../imagenes/header/sol.png"></a>
+              </td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td class="seleccion">
+                  <a href="../contenidos_dark/brasil_dark.html">Brasil</a>
+                  <a href="../contenidos_dark/china_dark.html">China</a>
+                  <a href="../contenidos_dark/espana_dark.html">España</a>
+                  <a href="../contenidos_dark/francia_dark.html">Francia</a>
+                  <a href="../contenidos_dark/india_dark.html">India</a>
+                  <a href="../contenidos_dark/italia_dark.html">Italia</a>
+                  <a href="../contenidos_dark/japon_dark.html">Japón</a>
+                  <a href="../contenidos_dark/mexico_dark.html">México</a>
+                  <a href="../contenidos_dark/tailandia_dark.html">Tailandia</a>
+              </td>
+              <td class="seleccion">
+                  <a href="../index_dark.html" class="right">Inicio</a>
+                  <a href="../contenidos_dark/formulario_dark.html" class="right"  id="seleccionado">Ayuda</a>
+                  
+              </td>
+              </tr>
+          </table>
+
+    </nav>    
+<body>
+ 
+    <div class="contacto">
+  
+        <div class="formulario">			
+      <h1>Formulario de contacto</h1>
+                <h3>Escríbeme y en breve me pondre en contacto contigo</h3>
+    
+    
+                    <form action="../proceso.php" method="POST">				
+    
+                        
+                                <p>
+                                    <label for="nombre"  class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="nombre" method="POST" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                </p>
+                            
+                                <p>
+                                    <label for="email" class="colocar_email">Email
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="email" method="POST" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                </p>
+                        
+                                <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono
+                                    </label>
+                                        <input type="tel" name="telefono" method="POST" id="telefono" placeholder="Escribe tu teléfono">
+                                </p>		
+                            
+                                <p>
+                                    <label for="website" class="colocar_website">Sitio web
+                                    </label>
+                                        <input type="url" name="website" method="POST" id="website" placeholder="Escribe la URL de tu web">
+                                </p>		
+                            
+                                <p>
+                                    <label for="asunto" class="colocar_asunto">Asunto
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="asunto" method="POST" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                </p>		
+                            
+                                <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>                     
+                                         <textarea name="mensaje" method="POST" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                   </p>	  								
+                            
+                                <button  type="submit" name="enviar" method="POST" id="enviar"><p class="escritos" >Enviar</p></button>
+    
+                                <h2 class="aviso">
+                                    <span class="obligatorio"> * </span>Los campos son obligatorios.
+                                </h2>					
+                        
+                    </form>
+        </div>	
+    </div>
+    
+    <footer  rel="stylesheet" type="text/css" href="../nuestro.css">
+        <div class="container">
+          
+            <div class="col-md-4">
+            <h2 class="centrado">Sabores Sin Fronteras</h2>
+              <h3 class="h3" class="centrado">Sobre nosotros</h3>
+              <p class="p" class="centrado">Somos un pequeño grupo de 5 personas el cual nos hemos dedicado a hacer esta pagina web sobre la gastronomía mundial</p>
+            </div>
+            <div class="centrado" class="col-md-4">
+              <h3 class="h3" class="centrado" >Contacto</h3>
+              <p class="p"> Email: ssb@gmail.com </p>
+              <p class="p">Tlf: 628 456 321</p>
+              <p class="p">Dirección: Av. Carlos III, 41, 14014 - Córdoba</p>
+
+            </div>
+            <div class="col-md-4">
+              <h3 class="h3" class="centrado">Síguenos</h3>
+              <ul  class="social-icons" >
+                <div id="rrss">
+                  <a href="https://www.facebook.com/?locale=es_ES" target="_black"><img src="../imagenes/footer/facebook.png" alt="Facebook"></a>
+                  <a href="https://www.instagram.com/" target="_black"><img src="../imagenes/footer/instagram.png" alt="Instagram"></a>
+                  <a href="https://twitter.com/?lang=es" target="_black"><img src="../imagenes/footer/twitter.png" alt="Twitter"></a>
+                  <a href="https://www.tiktok.com/es/" target="_black"><img src="../imagenes/footer/tiktok.png" alt="TikTok"></a>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <div class="centrado" class="row">
+            <div class="col-md-12">
+              <p class="p" class="centrado" >&copy; 2023 Sabores Sin Fronteras. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+</body>
+</html>
+
