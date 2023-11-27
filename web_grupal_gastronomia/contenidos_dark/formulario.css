@@ -1,0 +1,310 @@
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+	background-color: rgb(51, 75, 51);
+	
+}
+.centrado{
+	text-align: center;
+}
+
+.contacto{	
+	width: 600px; 
+    height: auto;
+    margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: rgb(255, 255, 255); 
+    padding-left: 30px; 
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 550px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgb(48, 102, 40); 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 550px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgb(48, 102, 40); 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	margin-left: 15%;
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: rgb(48, 102, 40); 
+	border-color:#000000; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: rgb(48, 102, 40); 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 39px;  
+    text-align: center;
+	padding-bottom: 20px; 
+	color: rgb(48, 102, 40);
+}
+
+
+h3{
+	font-size: 16px; 
+	text-align: center;
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+.h3{
+	color: rgb(179, 179, 67);	
+}
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+.p{
+	color: #ffffff; 	
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #bb9a05;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #bb9a05;
+}
+
+    header{
+	background-color: #ffffff;
+	}
+    .menu{
+    display:none;
+	
+    }
+    .header{
+	max-width:1100px;
+	margin:5px auto 0;
+    color:#202020;
+	
+	
+    }
+    .header.logo{
+    float:left;
+    margin:0
+	}
+	.header .logo span{
+	font-size:0.7em;
+	vertical-align:super;
+	margin-left:5px;
+	
+	}
+	.logo{
+	float:left;
+	margin:0;
+	
+	}
+	.header .logo i{
+	margin:0px 10px 10px;
+	cursor:pointer;
+	
+	}
+	.menuheader{
+	float:right;
+	
+	}
+	.menuheader ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+	}
+	.menuheader .listadomenu>li{
+	float:left;
+	position:relative;
+	
+	}
+	.menuheader .listadomenu>li:hover{
+	border-radius:5px
+	}
+	.compartirUrl:hover{
+	background-color:rgba(245, 245, 245, 1);
+	border-radius:5px
+	}
+	.menuheader .listadomenu ul{
+	display:none;
+	position:absolute;
+	margin:0;
+	border:solid 1px #ffffff;
+	
+	width:100%;
+	min-width:130px;
+	right:0;
+	z-index:10
+	}
+	.menuheader .listadomenu > li > a, .menuheader .listadomenu>li>span{
+	text-decoration:none;
+	color:#000000 !important;
+	display:block;
+	height:30px;
+	padding:6px 15px 0;
+	cursor:pointer;
+	font-size:20px;
+	font-weight:600
+	}
+	.menuheader .listadomenu > li > a > i, .menuheader .listadomenu>li>span>i{
+	font-size:14px;
+	
+	}
+	.menuheader .listadomenu>li>a>i.icon-Arrow-Down{
+	font-size:14px;
+	vertical-align:middle;
+	
+	}
+	.menuheader .listadomenu ul > li > a, .menuheader .listadomenu ul>li>span{
+	text-decoration:none;
+	color:#555555;
+	
+	display:block;
+	height:30px;
+	font-size:0.9em;
+	padding:6px 10px 0;
+	cursor:pointer
+	}
+	.menuheader .listadomenu.menuLinkInicio{
+    display:none;
+	
+    }
+    hr.lineagris{
+    margin:0;
+    padding:0;
+    border:none;
+    border-top:solid 1px #bbbbbb;
+    width:100%
+    }
+	hr.lineagris2{
+	margin:0;
+	padding:0;
+	border:none;
+	border-top:solid 5px #bbbbbb;
+	width:100%
+	}
+	hr.lineagris3{
+	margin:0;
+	padding:0;
+	border:none;
+	border-top:solid 3px #bbbbbb;
+	width:100%
+	}
+	hr.lineablanca{
+	margin:0;
+	padding:0;
+	border:none;
+	border-top:solid 3px #ffffff;
+	width:100%
+	}
+    .searchBar{
+    background-color:#fff;
+    padding:20px 0 20px 0;
+    display:none}
+
+    .pagina{
+    display:table;
+    width: 1000px;
+    margin:auto;
+    }
+    .pagina2{
+    display: table;
+    width: 1000px;
+    margin: auto;
+    }
+    .contenido{
+	margin: 2%;
+    float:left;
+    width:62%;
+    }
+	.imagen{
+		position: center;
+		display: inline-block;
+		text-align: center;
+		opacity: 0.5;
+	}
+	.logomedac{
+		width: 55px;
+		height: 50px;
+	}
+	
+	
+	
+	
+	.imgred{
+	height: 40px;
+	}
+	.imgred2{
+	height: 45px;
+	}
+    .espacio{
+		text-align: left;
+		margin-left: 15%;
+	}
